@@ -17,7 +17,7 @@ LABUBU Created with [Leafer Vue](https://github.com/FliPPeDround/leafer-vue).
 This project was inspired by <a href="http://xhslink.com/o/2Xum9er44EP">LABUBU 简笔画教程 - Thomas</a>.
 </samp>
 
-[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/leafer-labubu?style=flat&color=3292fe&labelColor=18181b&logo=github
+[github-stars-src]: https://img.shields.io/github/stars/xiaohe0601/leafer-labubu?style=flat&color=984628&labelColor=18181b&logo=github
 [github-stars-href]: https://github.com/xiaohe0601/leafer-labubu
-[license-src]: https://img.shields.io/github/license/xiaohe0601/leafer-labubu.svg?style=flat&color=3292fe&labelColor=18181b
+[license-src]: https://img.shields.io/github/license/xiaohe0601/leafer-labubu.svg?style=flat&color=984628&labelColor=18181b
 [license-href]: https://github.com/xiaohe0601/leafer-labubu/blob/main/LICENSE
