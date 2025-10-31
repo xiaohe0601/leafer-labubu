@@ -1,0 +1,56 @@
+{
+  "name": "leafer-labubu",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.20.0",
+  "scripts": {
+    "prepare": "simple-git-hooks",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --cache",
+    "lint:fix": "nr lint --fix",
+    "lint:type": "vue-tsc -b --noEmit",
+    "stylelint": "stylelint **/*.{css,scss,html,vue} --cache",
+    "stylelint:fix": "nr stylelint --fix"
+  },
+  "dependencies": {
+    "@leafer-in/animate": "catalog:",
+    "@vueuse/core": "catalog:",
+    "await-to-js": "catalog:",
+    "es-toolkit": "catalog:",
+    "leafer-ui": "catalog:",
+    "leafer-vue": "catalog:",
+    "ress": "catalog:",
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@antfu/ni": "catalog:",
+    "@iconify-json/carbon": "catalog:",
+    "@types/node": "catalog:",
+    "@vitejs/plugin-vue": "catalog:",
+    "@vue/runtime-core": "catalog:",
+    "@xiaohe01/eslint-config": "catalog:",
+    "@xiaohe01/stylelint-config": "catalog:",
+    "@xiaohe01/tsconfig": "catalog:",
+    "eslint": "catalog:",
+    "esno": "catalog:",
+    "lint-staged": "catalog:",
+    "simple-git-hooks": "catalog:",
+    "stylelint": "catalog:",
+    "typescript": "catalog:",
+    "unocss": "catalog:",
+    "unplugin-auto-import": "catalog:",
+    "unplugin-vue-components": "catalog:",
+    "vite": "catalog:",
+    "vue-tsc": "catalog:"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix",
+    "*.{css,scss,html,vue}": "stylelint --fix"
+  }
+}
