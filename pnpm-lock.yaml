@@ -4,175 +4,91 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-catalogs:
-  default:
-    '@antfu/ni':
-      specifier: ^28.0.0
-      version: 28.0.0
-    '@iconify-json/carbon':
-      specifier: ^1.2.15
-      version: 1.2.15
-    '@leafer-in/animate':
-      specifier: ^1.12.2
-      version: 1.12.2
-    '@types/node':
-      specifier: ^22.19.3
-      version: 22.19.3
-    '@vitejs/plugin-vue':
-      specifier: ^6.0.3
-      version: 6.0.3
-    '@vue/runtime-core':
-      specifier: ^3.5.26
-      version: 3.5.26
-    '@vueuse/core':
-      specifier: ^14.1.0
-      version: 14.1.0
-    '@xiaohe01/eslint-config':
-      specifier: ^4.1.0
-      version: 4.1.0
-    '@xiaohe01/stylelint-config':
-      specifier: ^3.1.0
-      version: 3.1.0
-    '@xiaohe01/tsconfig':
-      specifier: ^3.1.0
-      version: 3.1.0
-    await-to-js:
-      specifier: ^3.0.0
-      version: 3.0.0
-    es-toolkit:
-      specifier: ^1.43.0
-      version: 1.43.0
-    eslint:
-      specifier: ^9.39.2
-      version: 9.39.2
-    esno:
-      specifier: ^4.8.0
-      version: 4.8.0
-    leafer-ui:
-      specifier: ^1.12.2
-      version: 1.12.2
-    leafer-vue:
-      specifier: ^3.1.1
-      version: 3.1.1
-    lint-staged:
-      specifier: ^16.2.7
-      version: 16.2.7
-    ress:
-      specifier: ^5.0.2
-      version: 5.0.2
-    simple-git-hooks:
-      specifier: ^2.13.1
-      version: 2.13.1
-    stylelint:
-      specifier: ^16.26.1
-      version: 16.26.1
-    typescript:
-      specifier: ~5.9.3
-      version: 5.9.3
-    unocss:
-      specifier: ^66.5.11
-      version: 66.5.11
-    unplugin-auto-import:
-      specifier: ^20.3.0
-      version: 20.3.0
-    unplugin-vue-components:
-      specifier: ^30.0.0
-      version: 30.0.0
-    vite:
-      specifier: ^8.0.0-beta.5
-      version: 8.0.0-beta.5
-    vue:
-      specifier: ^3.5.26
-      version: 3.5.26
-    vue-tsc:
-      specifier: ^3.2.1
-      version: 3.2.1
-
 importers:
 
   .:
     dependencies:
       '@leafer-in/animate':
-        specifier: 'catalog:'
+        specifier: ^1.12.2
         version: 1.12.2(@leafer-in/color@1.12.2(@leafer-in/interface@1.12.2(@leafer-ui/interface@1.12.2)(@leafer/interface@1.12.2))(@leafer-ui/draw@1.12.2)(@leafer-ui/interface@1.12.2))(@leafer-in/interface@1.12.2(@leafer-ui/interface@1.12.2)(@leafer/interface@1.12.2))(@leafer-ui/draw@1.12.2)(@leafer-ui/interface@1.12.2)
       '@vueuse/core':
-        specifier: 'catalog:'
+        specifier: ^14.1.0
         version: 14.1.0(vue@3.5.26(typescript@5.9.3))
       await-to-js:
-        specifier: 'catalog:'
+        specifier: ^3.0.0
         version: 3.0.0
       es-toolkit:
-        specifier: 'catalog:'
+        specifier: ^1.43.0
         version: 1.43.0
       leafer-ui:
-        specifier: 'catalog:'
+        specifier: ^1.12.2
         version: 1.12.2
       leafer-vue:
-        specifier: 'catalog:'
+        specifier: ^3.1.1
         version: 3.1.1(leafer-ui@1.12.2)(typescript@5.9.3)
       ress:
-        specifier: 'catalog:'
+        specifier: ^5.0.2
         version: 5.0.2
       vue:
-        specifier: 'catalog:'
+        specifier: ^3.5.26
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
       '@antfu/ni':
-        specifier: 'catalog:'
+        specifier: ^28.0.0
         version: 28.0.0
       '@iconify-json/carbon':
-        specifier: 'catalog:'
+        specifier: ^1.2.15
         version: 1.2.15
       '@types/node':
-        specifier: 'catalog:'
+        specifier: ^22.19.3
         version: 22.19.3
       '@vitejs/plugin-vue':
-        specifier: 'catalog:'
+        specifier: ^6.0.3
         version: 6.0.3(vite@8.0.0-beta.5(@types/node@22.19.3)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))(vue@3.5.26(typescript@5.9.3))
       '@vue/runtime-core':
-        specifier: 'catalog:'
+        specifier: ^3.5.26
         version: 3.5.26
       '@xiaohe01/eslint-config':
-        specifier: 'catalog:'
+        specifier: ^4.1.0
         version: 4.1.0(@vue/compiler-sfc@3.5.26)(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@xiaohe01/stylelint-config':
-        specifier: 'catalog:'
+        specifier: ^3.1.0
         version: 3.1.0(postcss@8.5.6)(stylelint@16.26.1(typescript@5.9.3))
       '@xiaohe01/tsconfig':
-        specifier: 'catalog:'
+        specifier: ^3.1.0
         version: 3.1.0
       eslint:
-        specifier: 'catalog:'
+        specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
       esno:
-        specifier: 'catalog:'
+        specifier: ^4.8.0
         version: 4.8.0
       lint-staged:
-        specifier: 'catalog:'
+        specifier: ^16.2.7
         version: 16.2.7
       simple-git-hooks:
-        specifier: 'catalog:'
+        specifier: ^2.13.1
         version: 2.13.1
       stylelint:
-        specifier: 'catalog:'
+        specifier: ^16.26.1
         version: 16.26.1(typescript@5.9.3)
       typescript:
-        specifier: 'catalog:'
+        specifier: ~5.9.3
         version: 5.9.3
       unocss:
-        specifier: 'catalog:'
+        specifier: ^66.5.11
         version: 66.5.11(postcss@8.5.6)(vite@8.0.0-beta.5(@types/node@22.19.3)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2))
       unplugin-auto-import:
-        specifier: 'catalog:'
+        specifier: ^20.3.0
         version: 20.3.0(@vueuse/core@14.1.0(vue@3.5.26(typescript@5.9.3)))
       unplugin-vue-components:
-        specifier: 'catalog:'
+        specifier: ^30.0.0
         version: 30.0.0(@babel/parser@7.28.5)(vue@3.5.26(typescript@5.9.3))
       vite:
-        specifier: 'catalog:'
+        specifier: ^8.0.0-beta.5
         version: 8.0.0-beta.5(@types/node@22.19.3)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.2)
       vue-tsc:
-        specifier: 'catalog:'
+        specifier: ^3.2.1
         version: 3.2.1(typescript@5.9.3)
 
 packages:

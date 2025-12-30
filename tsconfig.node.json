@@ -12,9 +12,9 @@
   },
   "include": [
     "scripts/**/*",
-    "uno.config.ts",
-    "vite.config.ts",
     "eslint.config.js",
-    "stylelint.config.js"
+    "stylelint.config.js",
+    "uno.config.ts",
+    "vite.config.ts"
   ]
 }
