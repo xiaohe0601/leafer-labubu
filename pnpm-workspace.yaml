@@ -4,10 +4,10 @@ shellEmulator: true
 catalog:
   "@antfu/ni": ^28.0.0
   "@iconify-json/carbon": ^1.2.15
-  "@leafer-in/animate": ^1.12.0
+  "@leafer-in/animate": ^1.12.2
   "@types/node": ^22.19.3
   "@vitejs/plugin-vue": ^6.0.3
-  "@vue/runtime-core": ^3.5.25
+  "@vue/runtime-core": ^3.5.26
   "@vueuse/core": ^14.1.0
   "@xiaohe01/eslint-config": ^4.1.0
   "@xiaohe01/stylelint-config": ^3.1.0
@@ -16,19 +16,19 @@ catalog:
   es-toolkit: ^1.43.0
   eslint: ^9.39.2
   esno: ^4.8.0
-  leafer-ui: ^1.12.0
+  leafer-ui: ^1.12.2
   leafer-vue: ^3.1.1
   lint-staged: ^16.2.7
   ress: ^5.0.2
   simple-git-hooks: ^2.13.1
   stylelint: ^16.26.1
   typescript: ~5.9.3
-  unocss: ^66.5.10
+  unocss: ^66.5.11
   unplugin-auto-import: ^20.3.0
   unplugin-vue-components: ^30.0.0
-  vite: ^8.0.0-beta.2
-  vue: ^3.5.25
-  vue-tsc: ^3.1.8
+  vite: ^8.0.0-beta.5
+  vue: ^3.5.26
+  vue-tsc: ^3.2.1
 
 onlyBuiltDependencies:
   - esbuild
